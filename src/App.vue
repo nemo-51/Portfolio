@@ -1,5 +1,7 @@
 <template>
-  <h1>{{ hw }}</h1>
+  <div class="container">
+    <h2 class="pico-color-red">{{ hw }}</h2>
+  </div>
 </template>
 
 <script setup>
@@ -7,7 +9,4 @@
 </script>
 
 <style>
-  h1 {
-    color: red;
-  }
 </style>
