@@ -1,0 +1,101 @@
+{
+  "title": "Portofolio",
+  "sections": {
+    "about": {
+      "title": "Bonjour, je suis Nathan BIER",
+      "text": [
+        "Diplômé d’une licence informatique, je suis passionné par le développement, notamment Web et Logiciel.",
+        "Je suis actuellement à la recherche d’un premier emploi dans le domaine de l’informatique."
+      ]
+    },
+    "skills": {
+      "title": "Compétences",
+      "skills": [
+        {
+          "main-skill": "Web",
+          "sub-skills": [
+            "HTML, CSS, JavaScript",
+            "PHP brut, Laravel",
+            "SQL / PLSQL Oracle"
+          ]
+        },
+        {
+          "main-skill": "Java",
+          "sub-skills": [
+            "Programmation système / orienté objet",
+            "Communication réseau : UDP, TCP, HTTP",
+            "Interface en SWING et JFX"
+          ]
+        },
+        {
+          "main-skill": "Android",
+          "sub-skills": [
+            "Conception et réalisation d’applications avec Android Studio"
+          ]
+        },
+        {
+          "main-skill": "Python",
+          "sub-skills": ["Chiffrement / hachage en python"]
+        },
+        {
+          "main-skill": "MATLAB",
+          "sub-skills": ["Développement application / interface"]
+        },
+        {
+          "main-skill": "Langage C / C++",
+          "sub-skills": [
+            "Programmation système / programmation parallèle",
+            "Structure de données avancées"
+          ]
+        },
+        {
+          "main-skill": "Logiciels / Bureautique",
+          "sub-skills": [
+            "Github, Visual studio code",
+            "Linux / Windows : Commandes shell, script",
+            "Installation et maintenance de poste / gestion de réseau local",
+            "Montage  / Réparation d’ordinateurs"
+          ]
+        },
+        {
+          "main-skill": "Anglais : niveau B1",
+          "sub-skills": []
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projets",
+      "projects": [
+        {
+          "title": "Application Web de gestion de tickets",
+          "details": ["en PHP / Laravel"]
+        },
+        {
+          "title": "Jeu de simulation de trafic routier",
+          "details": ["en C / PThread avec une interface ncurses"]
+        },
+        {
+          "title": "Application mobile de mesure de distance",
+          "details": ["sur Android en Java"]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "links": [
+        {
+          "text": "Mail",
+          "url": "mailto:nathan.bier51@gmail.com"
+        },
+        {
+          "text": "Github",
+          "url": "https://github.com/nemo-51"
+        },
+        {
+          "text": "Linkedin",
+          "url": "https://www.linkedin.com/in/nathan-bier-632529227/"
+        }
+      ]
+    }
+  }
+}
