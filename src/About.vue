@@ -1,6 +1,7 @@
 <template>
   <section :id="props.id">
-    {{ props.data.title }}
+    <h2>{{ props.data.title }}</h2>
+    <p v-for="line in props.data.text" :key="line">{{ line }}</p>
   </section>
 </template>
 

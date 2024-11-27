@@ -1,7 +1,12 @@
 <template>
-  <section :id="props.id">
-    {{ props.data.title }}
-  </section>
+  <nav :id="props.id">
+    <ul>
+    <li><h2>{{ props.data.title }}</h2></li>
+    <li v-for="link in props.data.links" :key="link">
+      <a :href="link.url">{{ link.text }}</a>
+    </li>
+    </ul>
+  </nav>
 </template>
 
 <script setup>
