@@ -9,16 +9,15 @@
 </template>
 
 <script setup>
-  // read portfolio data
-  import data from "./assets/data.json"
+// read portfolio data
+import data from "./assets/data.json";
 
-  // import components
-  import Navbar from "./Navbar.vue"
-  import About from "./About.vue"
-  import Skills from "./Skills.vue"
-  import Projects from "./Projects.vue"
-  import Contact from "./Contact.vue"
+// import components
+import Navbar from "./Navbar.vue";
+import About from "./About.vue";
+import Skills from "./Skills.vue";
+import Projects from "./Projects.vue";
+import Contact from "./Contact.vue";
 </script>
 
-<style>
-</style>
+<style></style>
