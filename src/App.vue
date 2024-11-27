@@ -20,4 +20,16 @@ import Projects from "./Projects.vue";
 import Contact from "./Contact.vue";
 </script>
 
-<style></style>
+<style>
+/* card / grid system */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1rem;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+</style>

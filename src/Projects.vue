@@ -1,12 +1,14 @@
 <template>
   <section :id="props.id">
     <h2>{{ props.data.title }}</h2>
-    <ul>
-      <li v-for="project in props.data.projects" :key="project">
-        <strong>{{ project.title }}</strong>
-        <p v-for="line in project.details" :key="line">{{ line }}</p>
-      </li>
-    </ul>
+    <div class="card-grid">
+      <article v-for="project in props.data.projects" :key="project">
+          <strong>{{ project.title }}</strong>
+          <ul>
+            <li v-for="line in project.details" :key="line">{{ line }}</li>
+          </ul>
+      </article>
+    </div>
   </section>
 </template>
 
