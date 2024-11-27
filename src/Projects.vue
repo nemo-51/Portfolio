@@ -2,12 +2,42 @@
   <section :id="props.id">
     <h2>{{ props.data.title }}</h2>
     <div class="card-grid">
-      <article v-for="project in props.data.projects" :key="project">
+      <div
+        class="card-container"
+        v-for="project in props.data.projects"
+        :key="project"
+      >
+        <article>
+          <header v-if="project.image">
+            <img :src="project.image" :alt="project.title" />
+          </header>
           <strong>{{ project.title }}</strong>
-          <ul>
-            <li v-for="line in project.details" :key="line">{{ line }}</li>
-          </ul>
-      </article>
+          <p>{{ project.description }}</p>
+          <p class="badge-container">
+            <span class="badge" v-for="line in project.skills" :key="line">{{
+              line
+            }}</span>
+          </p>
+          <footer v-if="project.url_repo || project.url_site" class="grid">
+            <div>
+              <a
+                v-if="project.url_repo"
+                :href="project.url_repo"
+                target="_blank"
+                ><i class="ri-code-s-slash-line"></i> Dépôt
+              </a>
+            </div>
+            <div>
+              <a
+                v-if="project.url_site"
+                :href="project.url_site"
+                target="_blank"
+                ><i class="ri-links-line"></i> Site
+              </a>
+            </div>
+          </footer>
+        </article>
+      </div>
     </div>
   </section>
 </template>
@@ -19,4 +49,12 @@ const props = defineProps({
 });
 </script>
 
-<style></style>
+<style>
+.badge {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #525f7a;
+  color: #fff;
+  margin: 0 0.35rem;
+}
+</style>

@@ -27,7 +27,7 @@ import Contact from "./Contact.vue";
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 1rem;
 }
-article {
+.card-container {
   display: flex;
   flex-direction: column;
   justify-content: top;

@@ -70,47 +70,47 @@
         {
           "title": "Earth Live Wallpaper",
           "description": "Application python pour actualiser une image de la terre en fond d'écran.",
-          "details": ["HTML", "CSS", "JS"],
+          "skills": ["HTML", "CSS", "JS"],
           "type": "personal",
           "url_repo": "https://github.com/nemo-51/Earth-Live-Wallpaper",
-          "image": "assets/EAL.png"
+          "image": "ELW.png"
         },
         {
           "title": "improve Notion HTML export",
           "description": "Script python pour améliorer les fichiers HTML exportés depuis Notion.",
-          "details": ["python"],
+          "skills": ["python"],
           "type": "personal",
           "url_repo": "https://github.com/nemo-51/improve-Notion-HTML-export"
         },
         {
           "title": "Quiz IT",
           "description": "Défi de code en 2h.",
-          "details": ["HTML", "CSS", "JS"],
+          "skills": ["HTML", "CSS", "JS"],
           "type": "personal",
           "url_repo": "https://github.com/nemo-51/Quiz-IT",
           "url_site": "https://nemo-51.github.io/Quiz-IT/src/index.html",
-          "image": "assets/QIT.png"
+          "image": "QIT.png"
         },
         {
           "title": "Conway's Game Of Life Web",
           "description": "Une version Web du jeu de la vie de Conway sur une grille de 30×30.",
-          "details": ["HTML", "CSS", "JS"],
+          "skills": ["HTML", "CSS", "JS"],
           "type": "personal",
           "url_repo": "https://github.com/nemo-51/Conway-s-Game-Of-Life-Web",
           "url_site": "https://nemo-51.github.io/Conway-s-Game-Of-Life-Web/src/index.html",
-          "image": "assets/CGL.png"
+          "image": "CGL.png"
         },
         {
           "title": "Application pour paramètrer une simulation",
           "description": "De transistor organique.",
-          "details": ["MATLAB"],
+          "skills": ["MATLAB"],
           "type": "scholar",
-          "image": "assets/TFT.png"
+          "image": "TFT.png"
         },
         {
           "title": "Application Web de gestion de tickets",
           "description": "Avec système de messagerie.",
-          "details": ["PHP", "Laravel"],
+          "skills": ["PHP", "Laravel"],
           "type": "internship"
         },
         {
