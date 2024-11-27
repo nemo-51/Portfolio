@@ -59,8 +59,8 @@
           ]
         },
         {
-          "main_skill": "Anglais : niveau B1",
-          "sub_skills": []
+          "main_skill": "Anglais",
+          "sub_skills": ["niveau B1"]
         }
       ]
     },
