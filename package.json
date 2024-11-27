@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@picocss/pico": "^2.0.6",
+    "remixicon": "^4.5.0",
     "vue": "^3.5.12"
   },
   "devDependencies": {

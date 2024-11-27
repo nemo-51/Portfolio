@@ -86,15 +86,18 @@
       "links": [
         {
           "text": "Mail",
-          "url": "mailto:nathan.bier51@gmail.com"
+          "url": "mailto:nathan.bier51@gmail.com",
+          "icon": "ri-mail-fill"
         },
         {
           "text": "Github",
-          "url": "https://github.com/nemo-51"
+          "url": "https://github.com/nemo-51",
+          "icon": "ri-github-fill"
         },
         {
           "text": "Linkedin",
-          "url": "https://www.linkedin.com/in/nathan-bier-632529227/"
+          "url": "https://www.linkedin.com/in/nathan-bier-632529227/",
+          "icon": "ri-linkedin-box-fill"
         }
       ]
     }
