@@ -68,16 +68,62 @@
       "title": "Projets",
       "projects": [
         {
+          "title": "Earth Live Wallpaper",
+          "description": "Application python pour actualiser une image de la terre en fond d'écran.",
+          "details": ["HTML", "CSS", "JS"],
+          "type": "personal",
+          "url_repo": "https://github.com/nemo-51/Earth-Live-Wallpaper",
+          "image": "assets/EAL.png"
+        },
+        {
+          "title": "improve Notion HTML export",
+          "description": "Script python pour améliorer les fichiers HTML exportés depuis Notion.",
+          "details": ["python"],
+          "type": "personal",
+          "url_repo": "https://github.com/nemo-51/improve-Notion-HTML-export"
+        },
+        {
+          "title": "Quiz IT",
+          "description": "Défi de code en 2h.",
+          "details": ["HTML", "CSS", "JS"],
+          "type": "personal",
+          "url_repo": "https://github.com/nemo-51/Quiz-IT",
+          "url_site": "https://nemo-51.github.io/Quiz-IT/src/index.html",
+          "image": "assets/QIT.png"
+        },
+        {
+          "title": "Conway's Game Of Life Web",
+          "description": "Une version Web du jeu de la vie de Conway sur une grille de 30×30.",
+          "details": ["HTML", "CSS", "JS"],
+          "type": "personal",
+          "url_repo": "https://github.com/nemo-51/Conway-s-Game-Of-Life-Web",
+          "url_site": "https://nemo-51.github.io/Conway-s-Game-Of-Life-Web/src/index.html",
+          "image": "assets/CGL.png"
+        },
+        {
+          "title": "Application pour paramètrer une simulation",
+          "description": "De transistor organique.",
+          "details": ["MATLAB"],
+          "type": "scholar",
+          "image": "assets/TFT.png"
+        },
+        {
           "title": "Application Web de gestion de tickets",
-          "details": ["en PHP / Laravel"]
+          "description": "Avec système de messagerie.",
+          "details": ["PHP", "Laravel"],
+          "type": "internship"
         },
         {
           "title": "Jeu de simulation de trafic routier",
-          "details": ["en C / PThread avec une interface ncurses"]
+          "description": "Dont le but est d'éviter les embouteillages.",
+          "skills": ["C", "PThread", "ncurses"],
+          "type": "scholar"
         },
         {
           "title": "Application mobile de mesure de distance",
-          "details": ["sur Android en Java"]
+          "description": "Pour mesurer des distances avec son téléphone.",
+          "skills": ["Android", "Java"],
+          "type": "scholar"
         }
       ]
     },
