@@ -11,7 +11,9 @@
   <!-- fullscreen viewer -->
   <div v-if="fullscreenImage !== null" class="fullscreen" @click="closeFullscreen">
     <img :src="fullscreenImage" class="fullscreen-image" />
-    <div class="close-btn" @click.stop="closeFullscreen">✖</div>
+    <div class="close-btn" @click.stop="closeFullscreen">
+      <i class="ri-close-line"></i>
+    </div>
   </div>
 </template>
 
@@ -94,9 +96,9 @@ nav {
 }
 .close-btn {
   position: absolute;
-  top: 20px;
+  top: 13px;
   right: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   cursor: pointer;
   z-index: 1001;
