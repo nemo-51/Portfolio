@@ -8,7 +8,7 @@
       <div>
         <article>
           <div class="grid">
-            <div>
+            <div class="image-container">
               <img :src="props.data.picture" alt="Photo" />
             </div>
             <div>
@@ -33,10 +33,22 @@ const props = defineProps({
 <style scoped>
 .grid-about {
   display: grid;
-  grid-template-columns: 1fr 469px;
+  grid-template-columns: 1fr minmax(250px, 469px);
   gap: 1rem;
+}
+@media (max-width: 600px) {
+  .grid-about {
+    grid-template-columns: 1fr;
+  }
 }
 img {
   border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
