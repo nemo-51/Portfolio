@@ -9,6 +9,54 @@
         "Je suis actuellement à la recherche d’un premier emploi dans le domaine de l’informatique."
       ]
     },
+    "timeline": {
+      "title": "Chronologie",
+      "events": [
+        {
+          "title": "Vendanges (cueilleur)",
+          "structure": "Champagne DAUTREVILLE",
+          "location": "Jouy-Les-Reims",
+          "year": 2024,
+          "type": "work"
+        },
+        {
+          "title": "Licence Informatique",
+          "structure": "URCA",
+          "location": "Reims",
+          "year": 2024,
+          "type": "study"
+        },
+        {
+          "title": "Stage de développement d’interface graphique MATLAB",
+          "description": "Mise en place d’un cahier des charges, développement autonome avec réunion journalière (adaptation a un nouveau langage).",
+          "structure": "Laboratoire L2N, URCA",
+          "location": "Reims",
+          "year": 2024,
+          "type": "internship"
+        },
+        {
+          "title": "Baccalauréat Scientifique",
+          "structure": "lycée SJBS",
+          "location": "Reims",
+          "year": 2020,
+          "type": "study"
+        },
+        {
+          "title": "Vendanges (cueilleur)",
+          "structure": "Champagne Perceval",
+          "location": "Sacy",
+          "year": 2020,
+          "type": "work"
+        },
+        {
+          "title": "Stage de découverte du développement informatique",
+          "structure": "URCA",
+          "location": "Reims",
+          "year": 2018,
+          "type": "internship"
+        }
+      ]
+    },
     "skills": {
       "title": "Compétences",
       "skills": [
@@ -97,7 +145,7 @@
         },
         {
           "title": "Application pour paramètrer une simulation",
-          "description": "De transistor organique.",
+          "description": "De transistor organique (voir stage Laboratoire L2N).",
           "skills": ["MATLAB"],
           "type": "scholar",
           "image": "TFT.png"

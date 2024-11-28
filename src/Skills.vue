@@ -8,7 +8,9 @@
         :key="skill"
       >
         <article>
-          <strong>{{ skill.main_skill }}</strong>
+          <p>
+            <strong>{{ skill.main_skill }}</strong>
+          </p>
           <ul>
             <li v-for="subskill in skill.sub_skills" :key="subskill">
               {{ subskill }}

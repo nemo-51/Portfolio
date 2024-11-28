@@ -2,6 +2,7 @@
   <div class="container">
     <Navbar id="menu" :data="data" />
     <About id="about" :data="data.sections.about" />
+    <Timeline id="timeline" :data="data.sections.timeline" />
     <Skills id="skills" :data="data.sections.skills" />
     <Projects id="projects" :data="data.sections.projects" />
     <Contact id="contact" :data="data.sections.contact" />
@@ -15,6 +16,7 @@ import data from "./assets/data.json";
 // import components
 import Navbar from "./Navbar.vue";
 import About from "./About.vue";
+import Timeline from "./Timeline.vue";
 import Skills from "./Skills.vue";
 import Projects from "./Projects.vue";
 import Contact from "./Contact.vue";
@@ -31,5 +33,13 @@ import Contact from "./Contact.vue";
   display: flex;
   flex-direction: column;
   justify-content: top;
+}
+/* badge */
+.badge {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #525f7a;
+  color: #fff;
+  margin-right: 0.65rem;
 }
 </style>

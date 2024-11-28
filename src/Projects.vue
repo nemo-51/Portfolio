@@ -11,9 +11,11 @@
           <header v-if="project.image">
             <img :src="project.image" :alt="project.title" />
           </header>
-          <strong>{{ project.title }}</strong>
+          <p>
+            <strong>{{ project.title }}</strong>
+          </p>
           <p>{{ project.description }}</p>
-          <p class="badge-container">
+          <p>
             <span class="badge" v-for="line in project.skills" :key="line">{{
               line
             }}</span>
@@ -49,12 +51,4 @@ const props = defineProps({
 });
 </script>
 
-<style>
-.badge {
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-  background-color: #525f7a;
-  color: #fff;
-  margin: 0 0.35rem;
-}
-</style>
+<style></style>
