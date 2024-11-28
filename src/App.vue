@@ -38,7 +38,7 @@ import Contact from "./Contact.vue";
 .badge {
   padding: 0.25rem;
   border-radius: 0.25rem;
-  background-color: #525f7a;
+  background-color: var(--pico-color-slate-600);
   color: #fff;
   margin-right: 0.65rem;
 }

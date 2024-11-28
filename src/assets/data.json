@@ -1,5 +1,6 @@
 {
   "title": "Portofolio",
+  "url_cv": "https://kdrive.infomaniak.com/app/share/1112552/a3a9d196-f8f0-4f62-a508-22ff1b68d8e0",
   "sections": {
     "about": {
       "title": "À Propos",
@@ -7,6 +8,21 @@
         "Bonjour, je suis Nathan BIER.",
         "Diplômé d’une licence informatique, je suis passionné par le développement, notamment Web et Logiciel.",
         "Je suis actuellement à la recherche d’un premier emploi dans le domaine de l’informatique."
+      ],
+      "picture": "picture.jpg",
+      "small_skills": [
+        {
+          "icon": "ri-time-line",
+          "title": "Disponible immédiatement."
+        },
+        {
+          "icon": "ri-car-line",
+          "title": "Permis B."
+        },
+        {
+          "icon": "ri-more-line",
+          "title": "Plongée sous-marine en club : niveau N1."
+        }
       ]
     },
     "timeline": {
