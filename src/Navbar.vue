@@ -48,5 +48,6 @@ nav {
 .button-container {
   display: flex;
   align-items: center;
+  margin-left: 1rem;
 }
 </style>
