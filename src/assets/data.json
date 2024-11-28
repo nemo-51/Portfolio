@@ -13,54 +13,49 @@
       "title": "Compétences",
       "skills": [
         {
-          "main_skill": "Web",
+          "main_skill": "Web :",
           "sub_skills": [
-            "HTML, CSS, JavaScript",
-            "PHP brut, Laravel",
-            "SQL / PLSQL Oracle"
+            "HTML, CSS, JavaScript.",
+            "PHP brut, Laravel.",
+            "Vue3.",
+            "SQL / mySQL / PLSQL Oracle."
           ]
         },
         {
-          "main_skill": "Java",
+          "main_skill": "Java :",
           "sub_skills": [
-            "Programmation système / orienté objet",
-            "Communication réseau : UDP, TCP, HTTP",
-            "Interface en SWING et JFX"
+            "Programmation système / orienté objet.",
+            "Communication réseau : UDP, TCP, HTTP.",
+            "Interface en SWING et JFX.",
+            "Android / Android Studio."
           ]
         },
         {
-          "main_skill": "Android",
+          "main_skill": "Langage Haut Niveau :",
           "sub_skills": [
-            "Conception et réalisation d’applications avec Android Studio"
+            "Python (script / chiffrement hachage).",
+            "MATLAB (application / interface)."
           ]
         },
         {
-          "main_skill": "Python",
-          "sub_skills": ["Chiffrement / hachage en python"]
-        },
-        {
-          "main_skill": "MATLAB",
-          "sub_skills": ["Développement application / interface"]
-        },
-        {
-          "main_skill": "Langage C / C++",
+          "main_skill": "Langage C / C++ :",
           "sub_skills": [
-            "Programmation système / programmation parallèle",
-            "Structure de données avancées"
+            "Programmation système / programmation parallèle.",
+            "Structure de données avancées."
           ]
         },
         {
-          "main_skill": "Logiciels / Bureautique",
+          "main_skill": "Logiciels / Bureautique :",
           "sub_skills": [
-            "Github, Visual studio code",
-            "Linux / Windows : Commandes shell, script",
-            "Installation et maintenance de poste / gestion de réseau local",
-            "Montage  / Réparation d’ordinateurs"
+            "Git, GitHub, Visual studio code.",
+            "Linux / Windows : Commandes shell, script.",
+            "Installation et maintenance de poste / gestion de réseau local.",
+            "Montage / Réparation d’ordinateurs."
           ]
         },
         {
-          "main_skill": "Anglais",
-          "sub_skills": ["niveau B1"]
+          "main_skill": "Langues :",
+          "sub_skills": ["Anglais : niveau B1"]
         }
       ]
     },
