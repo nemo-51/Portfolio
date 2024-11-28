@@ -10,6 +10,9 @@
         <a href="#about">{{ props.data.sections.about.title }}</a>
       </li>
       <li>
+        <a href="#timeline">{{ props.data.sections.timeline.title }}</a>
+      </li>
+      <li>
         <a href="#skills">{{ props.data.sections.skills.title }}</a>
       </li>
       <li>
