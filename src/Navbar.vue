@@ -6,19 +6,19 @@
           ><h1>{{ props.data.title }}</h1></a
         >
       </li>
-      <li>
+      <li class="maskable">
         <a href="#about">{{ props.data.sections.about.title }}</a>
       </li>
-      <li>
+      <li class="maskable">
         <a href="#timeline">{{ props.data.sections.timeline.title }}</a>
       </li>
-      <li>
+      <li class="maskable">
         <a href="#skills">{{ props.data.sections.skills.title }}</a>
       </li>
-      <li>
+      <li class="maskable">
         <a href="#projects">{{ props.data.sections.projects.title }}</a>
       </li>
-      <li>
+      <li class="maskable">
         <a href="#contact">{{ props.data.sections.contact.title }}</a>
       </li>
     </ul>
@@ -40,4 +40,10 @@ const props = defineProps({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+@media (max-width: 1024px) {
+  .maskable {
+    display: none;
+  }
+}
+</style>
