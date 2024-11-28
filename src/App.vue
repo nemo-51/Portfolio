@@ -99,6 +99,7 @@ nav {
   top: 13px;
   right: 20px;
   font-size: 3rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
   color: white;
   cursor: pointer;
   z-index: 1001;
