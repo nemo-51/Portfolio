@@ -40,8 +40,4 @@ const props = defineProps({
 });
 </script>
 
-<style scoped>
-.margin-left {
-  margin-left: 1rem;
-}
-</style>
+<style scoped></style>

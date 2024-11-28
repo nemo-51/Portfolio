@@ -42,14 +42,18 @@ import Contact from "./Contact.vue";
   color: #fff;
   margin-right: 0.65rem;
 }
-
-nav {
-  display: flex;
-  justify-content: space-between;
-}
+/* align center */
 .flex-container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* align item right to navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.margin-left {
+  margin-left: 1rem;
 }
 </style>

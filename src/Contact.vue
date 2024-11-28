@@ -11,7 +11,7 @@
         </a>
       </li>
     </ul>
-    <div class="flex-container">
+    <div class="flex-container margin-left">
       <a :href="props.data.url_repo" target="_blank">
         <i class="ri-code-s-slash-line"></i>
         Voir le code source
