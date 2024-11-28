@@ -7,6 +7,12 @@
     <Projects id="projects" :data="data.sections.projects" />
     <Contact id="contact" :data="data.sections.contact" />
   </div>
+
+  <!-- fullscreen viewer -->
+  <div v-if="fullscreenImage !== null" class="fullscreen" @click="closeFullscreen">
+    <img :src="fullscreenImage" class="fullscreen-image" />
+    <div class="close-btn" @click.stop="closeFullscreen">✖</div>
+  </div>
 </template>
 
 <script setup>
@@ -20,6 +26,10 @@ import Timeline from "./Timeline.vue";
 import Skills from "./Skills.vue";
 import Projects from "./Projects.vue";
 import Contact from "./Contact.vue";
+
+// image zoom
+import { useImageInteractions } from "./composables/useImageInteractions";
+const { fullscreenImage, closeFullscreen } = useImageInteractions();
 </script>
 
 <style>
@@ -55,5 +65,40 @@ nav {
 }
 .margin-left {
   margin-left: 1rem;
+}
+/* Fullscreen Viewer */
+.image {
+  transition: transform 0.3s;
+}
+.image:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.fullscreen-image {
+  max-width: 90%;
+  max-height: 90%;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
 }
 </style>

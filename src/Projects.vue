@@ -9,7 +9,8 @@
       >
         <article>
           <header v-if="project.image">
-            <img :src="project.image" :alt="project.title" />
+            <img class="image" :src="project.image" :alt="project.title"
+            @click="openFullscreen(project.image)"
           </header>
           <p>
             <strong>{{ project.title }}</strong>
@@ -49,6 +50,10 @@ const props = defineProps({
   id: String,
   data: Object,
 });
+
+// image zoom
+import { useImageInteractions } from "./composables/useImageInteractions";
+const { openFullscreen } = useImageInteractions();
 </script>
 
 <style scoped></style>

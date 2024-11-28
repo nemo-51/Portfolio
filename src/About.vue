@@ -9,10 +9,18 @@
         <article>
           <div class="grid-about-card">
             <div class="flex-container">
-              <img :src="props.data.picture" alt="Photo" />
+              <img
+                class="image image-picture"
+                :src="props.data.picture"
+                alt="Photo"
+                @click="openFullscreen(props.data.picture)"
+              />
             </div>
             <div>
-              <p v-for="small_skill in props.data.small_skills" :key="small_skill">
+              <p
+                v-for="small_skill in props.data.small_skills"
+                :key="small_skill"
+              >
                 <i :class="small_skill.icon"></i> {{ small_skill.title }}
               </p>
             </div>
@@ -28,6 +36,10 @@ const props = defineProps({
   id: String,
   data: Object,
 });
+
+// image zoom
+import { useImageInteractions } from "./composables/useImageInteractions";
+const { openFullscreen } = useImageInteractions();
 </script>
 
 <style scoped>
@@ -46,7 +58,7 @@ const props = defineProps({
   grid-template-columns: minmax(150px, 1fr) 1fr;
   gap: 1rem;
 }
-img {
+.image-picture {
   border-radius: 50%;
   width: 150px;
   height: 150px;
