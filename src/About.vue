@@ -8,7 +8,7 @@
       <div>
         <article>
           <div class="grid">
-            <div class="image-container">
+            <div class="flex-container">
               <img :src="props.data.picture" alt="Photo" />
             </div>
             <div>

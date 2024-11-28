@@ -22,7 +22,7 @@
         <a href="#contact">{{ props.data.sections.contact.title }}</a>
       </li>
     </ul>
-    <div class="button-container">
+    <div class="flex-container margin-left">
       <a :href="props.data.url_cv" target="_blank">
         <button class="pico-background-red-500">
           <i class="ri-file-pdf-2-line"></i>
@@ -41,13 +41,7 @@ const props = defineProps({
 </script>
 
 <style scoped>
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-.button-container {
-  display: flex;
-  align-items: center;
+.margin-left {
   margin-left: 1rem;
 }
 </style>

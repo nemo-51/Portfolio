@@ -1,5 +1,5 @@
 <template>
-  <nav :id="props.id">
+  <nav :id="props.id" class="overflow-auto">
     <ul>
       <li>
         <h2>{{ props.data.title }}</h2>
@@ -11,6 +11,12 @@
         </a>
       </li>
     </ul>
+    <div class="flex-container">
+      <a :href="props.data.url_repo" target="_blank">
+        <i class="ri-code-s-slash-line"></i>
+        Voir le code source
+      </a>
+    </div>
   </nav>
 </template>
 
@@ -21,4 +27,4 @@ const props = defineProps({
 });
 </script>
 
-<style></style>
+<style scoped></style>
