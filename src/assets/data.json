@@ -160,7 +160,7 @@
           "image": "CGL.png"
         },
         {
-          "title": "Application pour paramètrer une simulation",
+          "title": "Application pour paramétrer une simulation",
           "description": "De transistor organique (voir stage Laboratoire L2N).",
           "skills": ["MATLAB"],
           "type": "scholar",
