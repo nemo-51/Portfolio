@@ -2,13 +2,9 @@
   <section :id="props.id">
     <h2>{{ props.data.title }}</h2>
     <div class="card-grid">
-      <div
-        class="card-grid__card-container"
-        v-for="event in props.data.events"
-        :key="event"
-      >
-        <article>
-          <header>
+      <article class="card" v-for="event in props.data.events" :key="event">
+        <header>
+          <p>
             <span class="text__span--margin-right"
               ><time
                 ><i class="ri-calendar-line"></i> {{ event.year }}</time
@@ -25,20 +21,22 @@
             <span class="text__span--margin-right" v-if="event.location"
               ><i class="ri-map-pin-line"></i> {{ event.location }}</span
             >
-          </header>
-          <p>
-            <span class="text__badge" v-if="event.type === 'study'">Diplôme</span>
-            <span class="text__badge" v-else-if="event.type === 'work'">Travail</span>
-            <span class="text__badge" v-else-if="event.type === 'internship'"
-              >Stage</span
-            >
           </p>
+          <span class="text__badge" v-if="event.type === 'study'">Diplôme</span>
+          <span class="text__badge" v-else-if="event.type === 'work'"
+            >Travail</span
+          >
+          <span class="text__badge" v-else-if="event.type === 'internship'"
+            >Stage</span
+          >
+        </header>
+        <div class="card__main">
           <p>
             <strong>{{ event.title }}</strong>
           </p>
           <p v-if="event.description">{{ event.description }}</p>
-        </article>
-      </div>
+        </div>
+      </article>
     </div>
   </section>
 </template>

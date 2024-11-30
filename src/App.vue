@@ -9,7 +9,11 @@
   </div>
 
   <!-- fullscreen viewer -->
-  <div v-if="fullscreenImage !== null" class="fullscreen" @click="closeFullscreen">
+  <div
+    v-if="fullscreenImage !== null"
+    class="fullscreen"
+    @click="closeFullscreen"
+  >
     <img :src="fullscreenImage" class="fullscreen__image" />
     <div class="button--close" @click.stop="closeFullscreen">
       <i class="ri-close-line"></i>
@@ -41,10 +45,12 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 1rem;
 }
-.card-grid__card-container {
+.card {
   display: flex;
   flex-direction: column;
-  justify-content: top;
+}
+.card__main {
+  flex: 1;
 }
 /* badge */
 .text__badge {

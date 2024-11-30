@@ -2,12 +2,8 @@
   <section :id="props.id">
     <h2>{{ props.data.title }}</h2>
     <div class="card-grid">
-      <div
-        class="card-grid__card-container"
-        v-for="skill in props.data.skills"
-        :key="skill"
-      >
-        <article>
+      <article class="card" v-for="skill in props.data.skills" :key="skill">
+        <div class="card__main">
           <p>
             <strong>{{ skill.main_skill }}</strong>
           </p>
@@ -16,8 +12,8 @@
               {{ subskill }}
             </li>
           </ul>
-        </article>
-      </div>
+        </div>
+      </article>
     </div>
   </section>
 </template>
