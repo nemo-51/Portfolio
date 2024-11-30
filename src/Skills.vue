@@ -3,7 +3,7 @@
     <h2>{{ props.data.title }}</h2>
     <div class="card-grid">
       <div
-        class="card-container"
+        class="card-grid__card-container"
         v-for="skill in props.data.skills"
         :key="skill"
       >

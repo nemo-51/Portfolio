@@ -7,10 +7,10 @@
       </div>
       <div>
         <article>
-          <div class="grid-about-card">
+          <div class="grid-about__card">
             <div class="flex-container">
               <img
-                class="image image-picture"
+                class="image image--picture"
                 :src="props.data.picture"
                 alt="Photo"
                 @click="openFullscreen(props.data.picture)"
@@ -53,19 +53,14 @@ const { openFullscreen } = useImageInteractions();
     grid-template-columns: 1fr;
   }
 }
-.grid-about-card {
+.grid-about__card {
   display: grid;
   grid-template-columns: minmax(150px, 1fr) 1fr;
   gap: 1rem;
 }
-.image-picture {
+.image--picture {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-}
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 </style>

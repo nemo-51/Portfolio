@@ -1,5 +1,5 @@
 <template>
-  <nav :id="props.id" class="overflow-auto">
+  <nav :id="props.id" class="navbar overflow-auto">
     <ul>
       <li>
         <h2>{{ props.data.title }}</h2>
@@ -11,7 +11,7 @@
         </a>
       </li>
     </ul>
-    <div class="flex-container margin-left">
+    <div class="flex-container">
       <a :href="props.data.url_repo" target="_blank">
         <i class="ri-code-s-slash-line"></i>
         Voir le code source

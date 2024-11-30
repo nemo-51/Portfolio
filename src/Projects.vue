@@ -3,7 +3,7 @@
     <h2>{{ props.data.title }}</h2>
     <div class="card-grid">
       <div
-        class="card-container"
+        class="card-grid__card-container"
         v-for="project in props.data.projects"
         :key="project"
       >
@@ -17,7 +17,7 @@
           </p>
           <p>{{ project.description }}</p>
           <p>
-            <span class="badge" v-for="line in project.skills" :key="line">{{
+            <span class="text__badge" v-for="line in project.skills" :key="line">{{
               line
             }}</span>
           </p>

@@ -10,8 +10,8 @@
 
   <!-- fullscreen viewer -->
   <div v-if="fullscreenImage !== null" class="fullscreen" @click="closeFullscreen">
-    <img :src="fullscreenImage" class="fullscreen-image" />
-    <div class="close-btn" @click.stop="closeFullscreen">
+    <img :src="fullscreenImage" class="fullscreen__image" />
+    <div class="button--close" @click.stop="closeFullscreen">
       <i class="ri-close-line"></i>
     </div>
   </div>
@@ -41,13 +41,13 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 1rem;
 }
-.card-container {
+.card-grid__card-container {
   display: flex;
   flex-direction: column;
   justify-content: top;
 }
 /* badge */
-.badge {
+.text__badge {
   padding: 0.25rem;
   border-radius: 0.25rem;
   background-color: var(--pico-color-slate-600);
@@ -61,12 +61,9 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
   justify-content: center;
 }
 /* align item right to navbar */
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
-}
-.margin-left {
-  margin-left: 1rem;
 }
 /* Fullscreen Viewer */
 .image {
@@ -88,13 +85,13 @@ nav {
   justify-content: center;
   z-index: 1000;
 }
-.fullscreen-image {
+.fullscreen__image {
   max-width: 90%;
   max-height: 90%;
   border: 2px solid white;
   border-radius: 8px;
 }
-.close-btn {
+.button--close {
   position: absolute;
   top: 13px;
   right: 20px;
