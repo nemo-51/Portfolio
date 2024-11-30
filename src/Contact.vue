@@ -11,7 +11,7 @@
         </a>
       </li>
     </ul>
-    <div class="flex-container">
+    <div class="flex-container flex-container--padding-left">
       <a :href="props.data.url_repo" target="_blank">
         <i class="ri-code-s-slash-line"></i>
         Voir le code source
@@ -27,4 +27,8 @@ const props = defineProps({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.flex-container--padding-left {
+  padding-left: 0.5rem;
+}
+</style>
