@@ -71,6 +71,9 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
   display: flex;
   justify-content: space-between;
 }
+.flex-container--padding-left {
+  padding-left: 0.5rem;
+}
 /* Fullscreen Viewer */
 .image {
   transition: transform 0.3s;

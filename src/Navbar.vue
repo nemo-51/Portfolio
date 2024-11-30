@@ -22,7 +22,7 @@
         <a href="#contact">{{ props.data.sections.contact.title }}</a>
       </li>
     </ul>
-    <div class="flex-container">
+    <div class="flex-container flex-container--padding-left">
       <a :href="props.data.url_cv" target="_blank">
         <button class="pico-background-red-500">
           <i class="ri-file-pdf-2-line"></i>

@@ -27,8 +27,4 @@ const props = defineProps({
 });
 </script>
 
-<style scoped>
-.flex-container--padding-left {
-  padding-left: 0.5rem;
-}
-</style>
+<style scoped></style>
