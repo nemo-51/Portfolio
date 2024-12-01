@@ -71,6 +71,12 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
   display: flex;
   justify-content: space-between;
 }
+.navbar--main {
+  position: sticky;
+  top: 0;
+  background-color: var(--pico-background-color);
+  z-index: 2;
+}
 .flex-container--padding-left {
   padding-left: 0.5rem;
 }
@@ -92,7 +98,7 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
+  z-index: 3;
 }
 .fullscreen__image {
   max-width: 90%;
@@ -108,6 +114,6 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
   text-shadow: 0 0 5px rgba(0, 0, 0, 1);
   color: white;
   cursor: pointer;
-  z-index: 1001;
+  z-index: 4;
 }
 </style>

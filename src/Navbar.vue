@@ -1,5 +1,5 @@
 <template>
-  <nav :id="props.id" class="navbar overflow-auto">
+  <nav :id="props.id" class="navbar navbar--main overflow-auto">
     <ul>
       <li>
         <a href="#menu"
