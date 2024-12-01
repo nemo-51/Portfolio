@@ -46,4 +46,10 @@ const props = defineProps({
     display: none;
   }
 }
+.navbar--main {
+  position: sticky;
+  top: 0;
+  background-color: var(--pico-background-color);
+  z-index: 2;
+}
 </style>

@@ -71,12 +71,6 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
   display: flex;
   justify-content: space-between;
 }
-.navbar--main {
-  position: sticky;
-  top: 0;
-  background-color: var(--pico-background-color);
-  z-index: 2;
-}
 .flex-container--padding-left {
   padding-left: 0.5rem;
 }
