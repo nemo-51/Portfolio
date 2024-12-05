@@ -110,4 +110,12 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
   cursor: pointer;
   z-index: 4;
 }
+/* navbars */
+.navbar__link-list__item {
+  display: flex;
+  align-items: center;
+}
+.navbar__link-list__item__title {
+  margin-bottom: 0 !important;
+}
 </style>
