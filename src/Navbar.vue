@@ -52,7 +52,8 @@ const props = defineProps({
   top: 0;
   background-color: var(--pico-background-color);
   z-index: 2;
-  padding-bottom: 8px;
+  padding-bottom: 8px !important;
+  padding-top: 8px !important;
 }
 @media (max-width: 1024px) {
   .navbar__link-list__item--maskable {

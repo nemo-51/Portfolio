@@ -1,5 +1,5 @@
 <template>
-  <nav :id="props.id" class="navbar navbar--footer overflow-auto">
+  <nav :id="props.id" class="navbar navbar--footer">
     <ul class="navbar__link-list">
       <li class="navbar__link-list__item navbar__link-list__item--title">
         <h2 class="navbar__link-list__item__title">{{ props.data.title }}</h2>
