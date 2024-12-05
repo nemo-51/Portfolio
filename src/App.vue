@@ -1,6 +1,6 @@
 <template>
+  <Navbar id="menu" :data="data" />
   <div class="container">
-    <Navbar id="menu" :data="data" />
     <About id="about" :data="data.sections.about" />
     <Timeline id="timeline" :data="data.sections.timeline" />
     <Skills id="skills" :data="data.sections.skills" />

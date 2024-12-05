@@ -1,7 +1,7 @@
 <template>
   <nav :id="props.id" class="navbar navbar--footer overflow-auto">
     <ul class="navbar__link-list">
-      <li class="navbar__link-list__item">
+      <li class="navbar__link-list__item navbar__link-list__item--title">
         <h2 class="navbar__link-list__item__title">{{ props.data.title }}</h2>
       </li>
       <li
@@ -48,6 +48,9 @@ const props = defineProps({
   .navbar__right-element {
     display: block !important;
     padding: 0 !important;
+  }
+  .navbar__link-list__item--title {
+    padding: 0px 8px 16px 8px !important;
   }
   .navbar__link-list__item__title {
     margin-bottom: 16px !important; /* reset to default */
