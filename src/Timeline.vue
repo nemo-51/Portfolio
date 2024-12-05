@@ -48,7 +48,7 @@ const props = defineProps({
 });
 </script>
 
-<style scoped>
+<style>
 .text__span--margin-right {
   margin-right: 0.5rem;
 }

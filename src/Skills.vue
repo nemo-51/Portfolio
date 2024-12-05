@@ -24,5 +24,3 @@ const props = defineProps({
   data: Object,
 });
 </script>
-
-<style scoped></style>

@@ -40,7 +40,7 @@ const props = defineProps({
 });
 </script>
 
-<style scoped>
+<style>
 @media (max-width: 1024px) {
   .navbar__link-item--maskable {
     display: none;

@@ -50,5 +50,3 @@ const props = defineProps({
 import { useImageInteractions } from "./composables/useImageInteractions";
 const { openFullscreen } = useImageInteractions();
 </script>
-
-<style scoped></style>

@@ -42,7 +42,7 @@ import { useImageInteractions } from "./composables/useImageInteractions";
 const { openFullscreen } = useImageInteractions();
 </script>
 
-<style scoped>
+<style>
 .grid-about {
   display: grid;
   grid-template-columns: 2fr minmax(350px, 1fr);
