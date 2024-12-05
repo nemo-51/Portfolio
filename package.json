@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/noto-sans": "^5.1.0",
+    "@fontsource/oswald": "^5.1.0",
     "@picocss/pico": "^2.0.6",
     "remixicon": "^4.5.0",
     "vue": "^3.5.12"

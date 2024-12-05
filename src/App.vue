@@ -39,6 +39,18 @@ const { fullscreenImage, closeFullscreen } = useImageInteractions();
 </script>
 
 <style>
+/* fonts */
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald, sans-serif;
+}
 /* card / grid system */
 .card-grid {
   display: grid;
