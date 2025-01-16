@@ -64,6 +64,17 @@ h6 {
 .card__main {
   flex: 1;
 }
+@media (max-width: 1000px) {
+  .card-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+  }
+  .card {
+    scroll-snap-align: center;
+    min-width: 350px;
+  }
+}
 /* badge */
 .text__badge {
   padding: 0.25rem;
