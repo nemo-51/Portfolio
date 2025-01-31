@@ -13,7 +13,7 @@
                 class="image image--picture"
                 :src="props.data.picture"
                 alt="Photo"
-                @click="openFullscreen(props.data.picture)"
+                @click="openFullscreen(['1.jpg', '2.jpg', '3.jpg'], 1)"
               />
             </div>
             <div>
