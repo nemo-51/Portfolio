@@ -51,6 +51,12 @@ h5,
 h6 {
   font-family: Oswald, sans-serif;
 }
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
 /* card / grid system */
 .card-grid {
   display: grid;
