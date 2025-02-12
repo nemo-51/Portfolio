@@ -15,12 +15,6 @@
     @click="closeFullscreen"
   >
     <img :src="fullscreenImage" class="fullscreen__image" />
-    <button @click.stop="fullscreenPreviousImage">Prev</button>
-    <button @click.stop="fullscreenNextImage">Next</button>
-    <i
-      >Image {{ fullscreenImagesIndex + 1 }} /
-      {{ fullscreenImagesArray.length }}</i
-    >
     <div class="button--close" @click.stop="closeFullscreen">
       <i class="ri-close-line"></i>
     </div>
@@ -41,14 +35,7 @@ import Contact from "./Contact.vue";
 
 // image zoom
 import { useImageInteractions } from "./composables/useImageInteractions";
-const {
-  fullscreenImage,
-  fullscreenImagesIndex,
-  fullscreenImagesArray,
-  closeFullscreen,
-  fullscreenNextImage,
-  fullscreenPreviousImage,
-} = useImageInteractions();
+const { fullscreenImage, closeFullscreen } = useImageInteractions();
 </script>
 
 <style>
